@@ -63,7 +63,7 @@ def pearson_chi_squared(col1, col2, alpha):
               'Hence, Chi-Squared Critical Value is invalidated by small expected frequencies.')
 
 
-"""Applying Pearson's chi squared test for Sepsis data"""
+"""Applying Pearson's chi square test for Sepsis data"""
 
 print("\n Results for Sepsis data")
 
@@ -74,7 +74,7 @@ column2 = data2['Age_Group']
 pearson_chi_squared(column1, column2,alpha = 5)
 
 
-"""Applying Pearson's chi squared test for product and payment data"""
+"""Applying Pearson's chi square test for product and payment data"""
 
 print("\n Results for product and payment data")
 
